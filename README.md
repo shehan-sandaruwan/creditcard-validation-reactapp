@@ -1,8 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-In the project directory, you can run:
+1.use npm install once you clone the repository<br>
+2.npm start<br>
+3.it should open vial localhost:3000<br>
+In the project directory, you can run:<br>
 
 ### `npm start`
 
