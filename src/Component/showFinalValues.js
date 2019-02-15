@@ -28,6 +28,7 @@ class SimpleCard extends Component {
     expiryDate: this.props.expireDate,
     CVC: this.props.securityCode.toString()
   };
+
   str = JSON.stringify(this.credicardDetails, null, 10);
 
   render() {

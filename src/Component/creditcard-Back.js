@@ -19,7 +19,7 @@ const styles = {
   },
   bullet: {
     display: "inline-block",
-    margin: "0 2px",
+    margin: "0 15px",
     transform: "scale(0.8)"
   },
   title: {
@@ -48,7 +48,7 @@ const Style_visa = {
   marginLeft: 5,
   maregin: 500,
   position: "relative",
-  left: 120,
+  flot: "left",
   top: 50
   //paddingLeft:
 };
@@ -81,7 +81,7 @@ class SimpleCard extends Component {
           </Grid>
           <Grid item xs={12} sm={6}>
             <Paper className={classes.paper} style={style_midline}>
-              <div style={{ position: "relative", left: "100px" }}>
+              <div style={{ position: "relative", left: "200px" }}>
                 {this.updateCVC(this.props.securityCode)}
               </div>
             </Paper>

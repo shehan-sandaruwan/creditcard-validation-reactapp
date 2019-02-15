@@ -26,16 +26,8 @@ const styles = {
   }
 };
 const button_style = {
-  margin: "5 auto"
-};
-const style_spinner = {
-  // flex: 1,
-  // alignItems: "center",
-  // justifyContent: "center",
-  // backgroundColor: "#ddd"
-  display: "block",
-  margin: " 0 auto",
-  borderColor: "red"
+  position: "relative",
+  left: "200%"
 };
 class SimpleCard extends Component {
   classes = this.props.classes;

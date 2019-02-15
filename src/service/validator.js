@@ -24,7 +24,11 @@ export const creditCardValidator = creditCard => {
     }
   }
   if (creditCard.name === "cardSecurityCode") {
-    if (!creditCard.value.length === 3 || !creditCard.value.length === 4) {
+    if (
+      !creditCard.value.length === 3 ||
+      !creditCard.value.length === 4 ||
+      creditCard.value.length === 0
+    ) {
       return false;
     } else {
       return true;

@@ -8,7 +8,6 @@ import { updateCardValues } from "../action/update-cardvalue-action";
 import { bindActionCreators } from "redux";
 import { creditCardValidator } from "../service/validator";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import InputMask from "react-input-mask";
 const styles = theme => ({
   container: {
     display: "flex",

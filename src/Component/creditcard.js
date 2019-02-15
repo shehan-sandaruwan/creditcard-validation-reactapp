@@ -36,9 +36,8 @@ const Style_chip = {
 
 const Style_visa = {
   maxWidth: 50,
-  marginLeft: 5,
   position: "relative",
-  left: 100
+  float: "right"
 };
 
 class SimpleCard extends Component {
