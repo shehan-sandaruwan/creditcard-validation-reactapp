@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "precommit": "lint-stage",
-    "test": "jest --verbose"
+    "test": "jest"
   },
   "lint-stage": {
     "src/**/*.{js,jsx,json,css}": [
@@ -62,5 +62,8 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
-  }
+  },
+  "setupFiles": [
+    "./src/test/setupTests.js"
+  ]
 }
